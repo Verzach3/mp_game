@@ -2364,6 +2364,7 @@ name = "mp_game"
 version = "0.1.0"
 dependencies = [
  "bevy",
+ "log",
 ]
 
 [[package]]
