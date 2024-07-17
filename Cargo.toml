@@ -5,7 +5,14 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.14.0"
+bevy-tokio-tasks = "0.14.0"
+bevy_quinnet = "0.9.0"
+bevy_replicon = "0.27.0"
+bevy_replicon_quinnet = "0.4.0"
+clap = { version = "4.5.9", features = ["derive"] }
 log = { version = "*", features = ["max_level_debug", "release_max_level_warn"] }
+serde = "1.0.204"
+tokio = { version = "1.38.0", features = ["time"] }
 
 
 # Enable a small amount of optimization in debug mode.
